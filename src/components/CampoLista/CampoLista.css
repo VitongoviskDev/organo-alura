@@ -1,0 +1,21 @@
+.campo-lista{
+    margin: 1.5em 0;
+
+    font-family: var(--ff-secondary);
+}
+.campo-lista__label{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+.campo-lista__input{
+    width: 100%;
+    padding: 2em 1.5em;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.campo-lista__input::placeholder{
+    color: #a4a4a4;
+}

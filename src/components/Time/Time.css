@@ -1,0 +1,26 @@
+.time{
+    padding-top: 2em;
+
+    text-align: center;
+}
+.time__title{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 32px;
+}
+.time__line{
+    width: 2em;
+    height: .25em;
+    margin: .5em auto;
+    
+    border: none;
+}
+.time__lista{
+    display: flex;
+    gap: 1.5em;
+    
+    padding: 0 1.5em 2em 1.5em;
+    margin-top: 2em;
+
+    overflow-x: auto;
+}

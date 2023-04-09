@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 6em 0;
+
+    background-color: #6278F7;
+    background-image: url('../../../public/imagens/fundo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-family: var(--ff-secondary);
+    color: #fff;
+}
+
+.footer__social__list{
+    display: flex;
+}
+.footer__social__list__item{
+    list-style-type: none;
+    margin: 0 1em;
+}
+.footer__social__list__icon{
+    height: 2em;
+    width: 2em;
+}
+
+.footer__logo{
+    height: 4em;
+}
+.footer__text{
+    font-size: 20px;
+    font-weight: 5 00;
+}

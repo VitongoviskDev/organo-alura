@@ -1,0 +1,52 @@
+.colaborador{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 17em;
+    min-width: 16em;
+    max-width: 16em;
+    padding-bottom: 1.5em;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.colaborador__cabecalho{
+    height: 5em;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.colaborador__imagem{
+    height: 7em;
+    width: 7em;
+    border-radius: 5em;
+
+    background-color: #f6f6f6;
+}
+.colaborador__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.colaborador__nome{
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    font-weight: 600;
+    color: #6278F7;
+    
+    margin-bottom: .5em;
+}
+.colaborador__cargo{
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: #212121;
+}
